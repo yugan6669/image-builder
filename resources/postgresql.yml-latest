@@ -1,0 +1,19 @@
+---
+- hosts: all
+  become: true
+
+  tasks:
+  - name: Install git
+    yum:
+       name: git
+       state: present
+       update_cache: yes
+
+  - name: Install wget
+    yum:
+       name: wget
+       state: present
+  - name: Install unzip
+    yum:
+       name: unzip
+       state: present
