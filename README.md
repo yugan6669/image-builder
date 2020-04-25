@@ -28,6 +28,7 @@ step 3: enter access key and secret key
 vi variables.json
 
 {
+
     "aws_access_key": "",
     
     "aws_secret_key": "",
