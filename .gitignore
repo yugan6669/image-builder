@@ -1,2 +1,3 @@
 packer
-credentials.json
+config.json
+variables.json
