@@ -1,10 +1,10 @@
 Project Title
 ================
-Packer is used to build Amazon Machine images
+Packer is used to build Custom Amazon Machine Images
 
 
-installation and set up 
-===================================
+installation and Configuration set up 
+=======================================
 $yum update -y && yum upgrade -y 
 
 $yum install git -y && yum install wget -y && yum install unzip -y && yum install curl -y
