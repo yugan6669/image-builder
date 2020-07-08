@@ -5,13 +5,10 @@ Packer is used to build Custom Amazon Machine Images
 
 installation and Configuration set up 
 =======================================
-$yum update -y && yum upgrade -y 
 
-$yum install git -y && yum install wget -y && yum install unzip -y && yum install curl -y
+$sh hardening.sh
 
-$wget https://releases.hashicorp.com/packer/1.5.5/packer_1.5.5_linux_amd64.zip
-
-$unzip packer_1.5.5_linux_amd64.zip && mv packer /bin/ && rm -rf ./packer*
+reference: https://github.com/krishnamaram2/WebApp
 
 
 Execution Flow
