@@ -5,6 +5,8 @@
     - lsof
     - wget
     - curl
+    - unzip
+    - git
     - yum-utils
     - cloud-init
 
