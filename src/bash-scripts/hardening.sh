@@ -8,4 +8,3 @@ sudo cp /home/centos/ansible.repo /etc/yum.repos.d/
 sudo yum install ansible -y
 sudo yum install docker -y
 
-
