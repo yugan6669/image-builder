@@ -15,11 +15,11 @@
 "source":"./ansible.repo",
 "destination":"/home/centos/ansible.repo"
 },
-{
-"type":"file",
-"source":"./ssh-keys.sh",
-"destination":"/home/centos/ssh-keys.sh"
-},
+#{
+#"type":"file",
+#"source":"./ssh-keys.sh",
+#"destination":"/home/centos/ssh-keys.sh"
+#},
 {
 "type": "shell",
 "script": "/home/centos/Image_Builder/src/bash-scripts/hardening.sh"
