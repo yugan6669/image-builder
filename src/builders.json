@@ -12,18 +12,18 @@
 "provisioners":[
 {
 "type":"file",
-"source":"./ansible.repo",
+"source":"/home/centos/image_builder/src/ansible.repo",
 "destination":"/home/centos/ansible.repo"
 },
 {
 "type": "shell",
-"script": "/home/centos/Image_Builder/src/bash-scripts/hardening.sh"
+"script": "/home/centos/image_builder/src/bash-scripts/hardening.sh"
 },
 {
 "type": "ansible-local",
-"playbook_file":"/home/centos/Image_Builder/src/ansible-playbooks/plays/myplay.yml",
+"playbook_file":"/home/centos/image_builder/src/ansible-playbooks/plays/myplay.yml",
 "role_paths": [
-"/home/centos/Image_Builder/src/ansible-playbooks/roles/myrole"
+"/home/centos/image_builder/src/ansible-playbooks/roles/myrole"
 ]
 
 }
